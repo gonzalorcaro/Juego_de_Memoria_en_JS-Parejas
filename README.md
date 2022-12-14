@@ -1,2 +1,2 @@
-# Juego_de_Memoria_en_JS-Parejas
- Juego de Memoria en JavaScript, juego de recordar y formar parejas
+# JuegosDeMemoria_Parejas
+ Juego de memoria de las parejas de cartas desarrollado por Gonzalo Rodríguez  Caro y Daniel Tortonda Ruiz

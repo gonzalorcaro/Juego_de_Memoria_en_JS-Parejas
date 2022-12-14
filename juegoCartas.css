@@ -1,0 +1,158 @@
+/* autores: DanielTortondaRuiz y Gonzalo Rodríguez Caro*/
+
+@font-face {
+  font-family: pokemonLetter;
+  src: url(fuentes/Pokemon\ Solid.ttf);
+  
+}
+
+body {
+  letter-spacing: 5px;
+  background-image: url("imagenes/fondo.jpg");
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-size: cover;
+  font-family: pokemonLetter;
+  color:yellow;
+  text-shadow: -1px -1px 1px rgb(4, 70, 252), 1px 1px 1px rgb(4, 70, 252), -1px 1px 1px rgb(4, 70, 252), 1px -1px 1px rgb(4, 70, 252);
+  -webkit-text-fill-color: #FCDB00;
+  -webkit-text-stroke: 2px rgb(2, 36, 130);
+  text-shadow: 0 0 10px rgb(255, 255, 255), 0 0 10px rgb(255, 255, 255),
+		0 0 10px rgb(255, 255, 255)
+}
+
+.cajaFacil{
+  width: 1000px;
+  box-sizing: border-box;
+  margin: auto;
+  text-align: center;
+  padding: 1% .75%;
+}
+
+.cajaMedio{
+  width: 1000px;
+  box-sizing: border-box;
+  margin: auto;
+  text-align: center;
+  padding: 1% .75%;
+}
+
+.cajaDificil{
+  width: 1450px;
+  box-sizing: border-box;
+  margin: auto;
+  text-align: center;
+  padding: 1% .75%;
+}
+
+.carta {
+  position: relative;
+  display: inline-block;
+  box-sizing: border-box;
+  vertical-align: top;
+  margin: .4%;
+  border-radius: 4px;
+  overflow: hidden;
+}
+img {
+  width: 150px;
+  height: 120px;
+  border: 1px black solid;
+  cursor: pointer;
+  background-color: rgb(151, 189, 238);;
+}
+
+#contenedor {
+    height: 100vh;
+    display: flex;
+    flex-wrap: nowrap;
+    align-items: center;
+    justify-content: center;
+    align-content: center;
+    gap: 20px;
+    flex-direction: column;
+}
+
+#divTitulo {
+  background: white;
+  width: 730px;
+  min-width: 150px;
+  height: 80px;
+  display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+    border: 2px black solid;
+}
+
+#botones {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+}
+
+.button {
+  background: white;
+  width: 15%;
+  min-width: 150px;
+  height: 80px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  font-family: pokemonLetter;
+  letter-spacing: 5px;
+  color:yellow;
+  text-shadow: -1px -1px 1px rgb(4, 70, 252), 1px 1px 1px rgb(4, 70, 252), -1px 1px 1px rgb(4, 70, 252), 1px -1px 1px rgb(4, 70, 252);
+  -webkit-text-fill-color: #FCDB00;
+  -webkit-text-stroke: 2px rgb(2, 36, 130);
+  text-shadow: 0 0 10px rgb(255, 255, 255), 0 0 10px rgb(255, 255, 255),
+		0 0 10px rgb(255, 255, 255);
+  font-size: 25px;
+  
+}
+
+#sonidos {
+    background: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 2px black solid;
+    gap: 5px;
+    width: 507px;
+    font-size: 20px;
+    height: 60px;
+}
+
+#volumenMusica {
+  width: 307px;
+}
+
+#divSonido {
+  display: flex;
+    justify-content: center;
+    align-items: center;
+  background: white;
+  height: 60px;
+  width: 657px;
+  border: 2px black solid;
+  font-size: 20px;
+}
+
+#CronoContenedor {
+  height: 60px;
+  width: 180px;
+  background: rgb(151, 189, 238);
+  border: black 1px solid;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 25px;
+}
+
